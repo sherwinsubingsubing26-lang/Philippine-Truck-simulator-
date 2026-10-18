@@ -1,0 +1,4 @@
+Build Philippine Truck simulator Apk read Ubuntu-latest checkout source actions/checkout@v4 set up java actions/setup-java@v4 temurin 17 set up Gradle Gradle/actions/setup-gradle@v4 8.9 set up Android SDK android-actions/setup-android@v3 Install Android SDK sdk manager platforma; Android 35"
+"Build-tools;35.0.0"  build APK Gradle assembleDebug Save Apk actions/upload-artifac5@v4 
+Philippine Truck Simulator Apk 
+App/build/outputs/Apk/debug/app-debug.apk
